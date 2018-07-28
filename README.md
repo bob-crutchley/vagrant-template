@@ -3,7 +3,7 @@ Template for vagrant projects, using a YAML file to manage all of the
 guest machines in VirtualBox
 ## Defining Guest Machines 
 Guest machines can be defined in the [`guest_machines.yml`](guest_machines.yml) file  
-The guest name, box, cpus, memory and private_ip must be defined:
+The guest `name`, `box`, `cpus`, `memory` and `private_ip` must be defined:
 ```yaml
 - name: default
   box: centos/7
