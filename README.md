@@ -1,5 +1,5 @@
 # Vagrant Template
-Template for vagrant projects, using a YAML file to manage all of the 
+Template for Vagrant projects, using a YAML file to manage all of the 
 guest machines in VirtualBox
 ## Defining Guest Machines 
 Guest machines can be defined in the [`guest_machines.yml`](guest_machines.yml) file  
